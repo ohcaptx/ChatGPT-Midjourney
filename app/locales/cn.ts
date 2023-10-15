@@ -108,7 +108,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全，: 触发命令";
+      return inputHints + "，/ 触发补全，: 触发命令，直接发送开启对话，/mj+内容 开启绘画";
     },
     Send: "发送",
     Config: {
